@@ -36,6 +36,7 @@ wayland.windowManager.hyprland.systemd.variables = ["--all"];
         "waybar"
         "hyprpaper"
         "hypridle"
+        "${pkgs.polkit_gnome}/libexec/polkit-gnome-authentication-agent-1"
       ];
     general = 
       {
