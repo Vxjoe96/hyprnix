@@ -19,7 +19,7 @@
         ./hosts/laptop
         (import ./overlays)
         nixos-hardware.nixosModules.microsoft-surface-surface-laptop-amd
-      ]
-    }
+      ];
+    };
   };
 }
