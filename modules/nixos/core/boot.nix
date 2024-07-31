@@ -1,7 +1,7 @@
 { config, pkgs, ... }:
     {
         boot = {
-            kernelPackages = pkgs.linuxPackages_zen;
+            kernelPackages = lib.mkDefault pkgs.linuxPackages_zen;
             consoleLogLevel = 3;
             kernelParams = [
                 "quiet"
