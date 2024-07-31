@@ -7,7 +7,7 @@
       ../../modules/nixos
     ];
 
-  networking.hostName = "desktop"; # Define your hostname.
+  networking.hostName = "desktop";
   
   time.timeZone = "America/Denver";
   i18n.defaultLocale = "en_US.UTF-8";
@@ -52,9 +52,6 @@
     description = "joseph";
     extraGroups = [ "networkmanager" "wheel" "gamemode" ];
   };
-
-  # Install firefox. also move 
-  programs.firefox.enable = true;
 
 
   # List packages installed in system profile. To search, run:
