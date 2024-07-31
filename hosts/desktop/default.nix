@@ -50,7 +50,7 @@
   users.users.joseph = {
     isNormalUser = true;
     description = "joseph";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "gamemode" ];
   };
 
   # Install firefox. also move 
