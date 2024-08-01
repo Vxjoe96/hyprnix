@@ -92,7 +92,6 @@
                     }
 
                     #clock,
-                    #battery,
                     #cpu,
                     #memory,
                     #disk,
@@ -134,6 +133,7 @@
 
                     #battery {
                         color: #ffffff;
+                        padding: 0 15px;
                         background-color: transparent;
                     }
 
