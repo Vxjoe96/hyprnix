@@ -19,7 +19,17 @@
                             icon-size = 21;
                             spacing = 10;
                         };
-
+                         "battery" = {
+                            interval = 60;
+                            states = {
+                                "warning" = 30;
+                                "critical" = 15;
+                            };
+                            format = "{icon}";
+                            format-icons = {
+                                
+                            }
+                         }
                         "hyprland/workspaces" = {
 	                    format = "{icon}";
 	                    format-icons = {

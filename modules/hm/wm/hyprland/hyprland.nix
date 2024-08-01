@@ -89,9 +89,6 @@ wayland.windowManager.hyprland.systemd.variables = ["--all"];
       {
         "force_default_wallpaper" = "0";
         "disable_hyprland_logo" = "true";
-        "vrr" = "2";
-        "vfr" = "false";
-        "no_direct_scanout" = "false";
       };
     workspace = 
       [
