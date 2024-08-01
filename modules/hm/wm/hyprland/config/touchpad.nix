@@ -1,7 +1,7 @@
 { lib, pkgs, ... }:
 {
     wayland.windowManager.hyprland.settings = {
-        touchpad = {
+        input.touchpad = {
             disable_while_typing = true;
             natural_scroll = true;
             clickfinger_behavior = true;
