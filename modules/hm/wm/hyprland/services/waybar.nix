@@ -135,7 +135,7 @@
                         color: #ffffff;
                         padding: 0 15 0 0px;
                         background-color: transparent;
-                        font-size: 13px;
+                        font-size: 15px;
                     }
 
                     #battery.charging, #battery.plugged {
