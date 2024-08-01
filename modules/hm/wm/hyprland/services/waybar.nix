@@ -10,7 +10,7 @@
                         spacing = 4;
                         modules-left = ["hyprland/workspaces"];
                         modules-center = ["custom/clock"];
-                        modules-right = ["tray" "battery"];
+                        modules-right = ["tray" "network" "battery"];
                         "custom/clock" = {
                             interval = 1;
                             exec = "date '+%-I:%M %p'";
@@ -19,6 +19,12 @@
                             icon-size = 21;
                             spacing = 10;
                         };
+                         "network" = {
+                            format = "";
+                            format-wifi = "";
+                            format-disconnected = "";
+                            tooltip-format-wifi = "{essid}\n ({signalStrength}%)";
+                         };
                          "battery" = {
                             interval = 60;
                             states = {
