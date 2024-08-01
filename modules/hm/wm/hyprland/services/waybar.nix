@@ -139,8 +139,8 @@
                     }
 
                     #battery.charging, #battery.plugged {
-                        color: #ffffff;
-                        background-color: #26A65B;
+                        color: #26A65B;
+                        background-color: transparent;
                     }
 
                     @keyframes blink {
@@ -152,8 +152,8 @@
 
                     /* Using steps() instead of linear as a timing function to limit cpu usage */
                     #battery.critical:not(.charging) {
-                        background-color: #f53c3c;
-                        color: #ffffff;
+                        background-color: transparent;
+                        color: #f53c3c;
                         animation-name: blink;
                         animation-duration: 0.5s;
                         animation-timing-function: steps(12);
