@@ -133,7 +133,7 @@
 
                     #battery {
                         color: #ffffff;
-                        padding: 0 15 0 10px;
+                        padding: 0 15 0 0px;
                         background-color: transparent;
                         font-size: 13px;
                     }
