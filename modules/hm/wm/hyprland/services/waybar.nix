@@ -10,7 +10,7 @@
                         spacing = 4;
                         modules-left = ["hyprland/workspaces"];
                         modules-center = ["custom/clock"];
-                        modules-right = ["tray"];
+                        modules-right = ["tray" "battery"];
                         "custom/clock" = {
                             interval = 1;
                             exec = "date '+%-I:%M %p'";
