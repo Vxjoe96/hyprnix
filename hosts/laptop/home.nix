@@ -4,6 +4,7 @@
   imports =
     [
       ../../modules/hm
+      ../../modules/hm/wm/hyprland/config/touchpad.nix
     ];
     
   home.username = "joseph";

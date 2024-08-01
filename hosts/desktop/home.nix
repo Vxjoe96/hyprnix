@@ -4,6 +4,7 @@
   imports =
     [
       ../../modules/hm
+      ../../modules/hm/wm/hyprland/config/vrr.nix
     ];
     
   home.username = "joseph";
