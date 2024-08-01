@@ -18,7 +18,7 @@
       modules = [
         ./hosts/laptop
         (import ./overlays)
-        nixos-hardware.nixosModules.microsoft-surface-surface-laptop-amd
+        inputs.nixos-hardware.nixosModules.microsoft-surface-surface-laptop-amd
       ];
     };
   };
