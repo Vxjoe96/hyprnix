@@ -106,7 +106,7 @@
                             color =" $color0";
                             font_size = 20;
                             font_family = "JetBrains Mono Nerd Font 10";
-                            position = "0, -15";
+                            position = "0, -35";
                             halign = "center";
                             valign = "center";
                            }
