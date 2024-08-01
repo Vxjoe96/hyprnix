@@ -26,10 +26,8 @@
                                 "critical" = 15;
                             };
                             format = "{icon}";
-                            format-icons = {
-                                
-                            }
-                         }
+                            format-icons = {"", "", "", "", ""};
+                         };
                         "hyprland/workspaces" = {
 	                    format = "{icon}";
 	                    format-icons = {
