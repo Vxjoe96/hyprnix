@@ -5,7 +5,7 @@
         security.pam.services.hyprlock = {};
         services.udisks2.enable = true;
         environment.systemPackages = with pkgs; [
-             pkgs.polkit_gnome
+            polkit_gnome
         ];
         security.polkit = {
             enable = true;
