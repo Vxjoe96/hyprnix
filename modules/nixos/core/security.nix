@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ ... }:
 # security tweaks borrowed from @hlissner
 {
   boot.kernel.sysctl = {
