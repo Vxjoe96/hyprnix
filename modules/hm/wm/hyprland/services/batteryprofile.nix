@@ -48,7 +48,7 @@
             	# wait for the next power change event
             	inotifywait -qq "$BAT_STATUS" "$BAT_CAP"
             done
-            ''};
+            ''}";
         };
     };
 }
