@@ -10,6 +10,7 @@
                         "explorer.confirmDragAndDrop" = false;
                         "terminal.integrated.fontWeight" = "normal";
                         "editor.fontFamily" = "JetBrainsMono NFM";
+                        "git.enableSmartCommit" = true;
                     };
             };
     }

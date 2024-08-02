@@ -5,6 +5,7 @@
     [
       ../../modules/hm
       ../../modules/hm/wm/hyprland/config/touchpad.nix
+      ../../modules/hm/wm/hyprland/services/batteryprofile.nix
     ];
     
   home.username = "joseph";

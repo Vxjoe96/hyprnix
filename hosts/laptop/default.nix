@@ -5,6 +5,7 @@
       ./hardware-configuration.nix
       inputs.home-manager.nixosModules.default
       ../../modules/nixos
+      ../../modules/nixos/hardware/battery.nix
     ];
 
   networking.hostName = "laptop";
