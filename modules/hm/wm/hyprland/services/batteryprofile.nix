@@ -46,7 +46,7 @@
             	prev=$profile
 
             	# wait for the next power change event
-            	inotifywait -qq "$BAT_STATUS" "$BAT_CAP"
+            	${pkgs.inotify-tools}/bin/inotifywait -qq "$BAT_STATUS" "$BAT_CAP"
             done
             ''}";
         };
