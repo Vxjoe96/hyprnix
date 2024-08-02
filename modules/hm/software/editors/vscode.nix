@@ -22,6 +22,7 @@
                         "nix.serverSettings.nil.nix.maxMemoryMB" = 6500;
                         "nix.enableLanguageServer" = true;
                         "nix.serverPath" = "nil";
+                        "git.confirmSync" = false;
                     };
             };
     }
