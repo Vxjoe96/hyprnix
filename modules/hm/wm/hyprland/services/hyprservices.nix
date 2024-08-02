@@ -1,4 +1,4 @@
-{ config, pkgs, inputs, ... }:
+{ ... }:
     let
           wallpaper = ../../../../../wallpapers/Minimal-Pack-7.jpg;
         in 

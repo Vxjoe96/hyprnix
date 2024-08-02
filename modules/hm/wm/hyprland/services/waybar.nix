@@ -1,4 +1,4 @@
-{ config, pkgs, inputs, ... }:
+{ ... }:
 {
     programs.waybar = 
         {
@@ -157,7 +157,7 @@
 
                     @keyframes blink {
                         to {
-                            background-color: #ffffff;
+                            background-color: transparent;
                             color: #000000;
                         }
                     }

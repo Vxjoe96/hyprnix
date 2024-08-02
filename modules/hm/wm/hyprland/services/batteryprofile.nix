@@ -1,4 +1,4 @@
-{ config, pkgs, inputs, ... }:
+{ pkgs, ... }:
 {
     systemd.user.services.battery-profile-auto = {
         Unit = {
