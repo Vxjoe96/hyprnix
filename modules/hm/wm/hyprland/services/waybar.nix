@@ -16,7 +16,7 @@
                             exec = "date '+%-I:%M %p'";
                         };
                          "tray" = {
-                            icon-size = 21;
+                            icon-size = 20;
                             spacing = 10;
                         };
                          "network" = {
@@ -186,7 +186,7 @@
                         background-color: #2ecc71;
                         color: #000000;
                     }
-                    
+
                     #tray > .passive {
                         -gtk-icon-effect: dim;
                     }
