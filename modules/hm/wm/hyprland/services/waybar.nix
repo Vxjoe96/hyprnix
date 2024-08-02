@@ -10,7 +10,7 @@
                         spacing = 4;
                         modules-left = ["hyprland/workspaces"];
                         modules-center = ["custom/clock"];
-                        modules-right = ["tray" "network" "battery"];
+                        modules-right = [ "tray" "network" "battery"];
                         "custom/clock" = {
                             interval = 1;
                             exec = "date '+%-I:%M %p'";
@@ -22,8 +22,10 @@
                          "network" = {
                             format = "";
                             format-wifi = "";
+                            format-ethernet = "";
                             format-disconnected = "";
-                            tooltip-format-wifi = "{essid}\nStrength {signalStrength}%";
+                            tooltip-format-ethernet = "{ifname}\n{ipaddr}\n{gwaddr}";
+                            tooltip-format-wifi = "{essid}-{frequency}\nStrength {signalStrength}%";
                          };
                          "battery" = {
                             interval = 60;
@@ -143,6 +145,9 @@
                         padding: 0 15 0 0px;
                         background-color: transparent;
                         font-size: 15px;
+                    }
+                    #network.ethernet {
+                        font-size: 18px;
                     }
 
                     #battery.charging, #battery.plugged {
