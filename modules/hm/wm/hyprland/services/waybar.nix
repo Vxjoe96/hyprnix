@@ -23,7 +23,7 @@
                             format = "";
                             format-wifi = "";
                             format-disconnected = "";
-                            tooltip-format-wifi = "{essid}\n Strength {signalStrength}%";
+                            tooltip-format-wifi = "{essid}\nStrength {signalStrength}%";
                          };
                          "battery" = {
                             interval = 60;
