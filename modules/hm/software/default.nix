@@ -5,5 +5,6 @@
   ./gaming
   ./utilities
   ./browsers/chrome.nix
+  ./media
   ];
 }
