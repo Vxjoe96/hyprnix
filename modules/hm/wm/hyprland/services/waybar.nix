@@ -149,13 +149,25 @@
                     #network.ethernet {
                         font-size: 18px;
                     }
+                    
+                    @keyframes battplugged {
+                        to {
+                            background-color: transparent;
+                            color: #000000;
+                        }
+                    }
 
                     #battery.charging, #battery.plugged {
                         color: #26A65B;
                         background-color: transparent;
+                        animation-name: battplugged;
+                        animation-duration: 0.5s;
+                        animation-timing-function: steps(12);
+                        animation-iteration-count: 1;
+                        animation-direction: alternate;
                     }
 
-                    @keyframes blink {
+                    @keyframes battcrit {
                         to {
                             background-color: transparent;
                             color: #000000;
@@ -166,7 +178,7 @@
                     #battery.critical:not(.charging) {
                         background-color: transparent;
                         color: #f53c3c;
-                        animation-name: blink;
+                        animation-name: battcrit;
                         animation-duration: 0.5s;
                         animation-timing-function: steps(12);
                         animation-iteration-count: infinite;
