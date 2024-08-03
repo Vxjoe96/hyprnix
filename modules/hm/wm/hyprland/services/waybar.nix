@@ -109,7 +109,6 @@
                     #pulseaudio,
                     #wireplumber,
                     #custom-media,
-                    #tray,
                     #mode,
                     #idle_inhibitor,
                     #scratchpad,
@@ -117,6 +116,13 @@
                     #mpd {
                         padding: 0 10px;
                         color: #ffffff;
+                    }
+                    #tray {
+                        padding-top: 2px;
+                        padding-right: 2px;
+
+                        color: #ffffff;
+                        
                     }
 
                     #window,

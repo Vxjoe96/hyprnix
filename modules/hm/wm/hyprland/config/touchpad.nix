@@ -6,6 +6,7 @@
             natural_scroll = true;
             clickfinger_behavior = true;
             tap-to-click = false;
+            scroll_factor = .1;
         };
         gestures = {
             workspace_swipe = true;
