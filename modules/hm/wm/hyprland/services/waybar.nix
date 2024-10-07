@@ -5,7 +5,8 @@
             enable = true;
             settings = 
                 {
-                    mainBar = {    
+                    mainBar = {
+                        output = ["DP-3"];   
                         height = 30;
                         spacing = 4;
                         modules-left = ["hyprland/workspaces"];
@@ -22,9 +23,7 @@
                          "network" = {
                             format = "";
                             format-wifi = "";
-                            format-ethernet = "";
                             format-disconnected = "";
-                            tooltip-format-ethernet = "{ifname}\n{ipaddr}\n{gwaddr}";
                             tooltip-format-wifi = "{essid}-{frequency}\nStrength {signalStrength}%";
                          };
                          "battery" = {
@@ -46,7 +45,7 @@
 	                    	"5" = "";
 	                    };
                            "persistent-workspaces" = {
-                                 "*" = 5;
+                                 "DP-3" = 5;
                            };
                         };
                     };

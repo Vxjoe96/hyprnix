@@ -29,7 +29,8 @@ wayland.windowManager.hyprland.systemd.variables = ["--all"];
   wayland.windowManager.hyprland.settings = {
     monitor = 
       [
-        ",highrr,auto,auto"
+        "DP-3,3440x1440@164.89999,auto,auto"
+        "HDMI-A-1,1920x1080@74.97,auto-left,1,transform,3"
       ];
     exec-once = 
       [
